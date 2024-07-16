@@ -3,19 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Webpage</title>
+    <title>Complex Webpage Example</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>My Awesome Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <p>This is a simple static webpage.</p>
-    </main>
+
+    <section id="home">
+        <h2>Welcome to My Blog</h2>
+        <p>This is where I share my thoughts, photos, and more.</p>
+    </section>
+
+    <section id="articles">
+        <h2>Articles</h2>
+        <article>
+            <h3>My First Article</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan urna. Duis sit amet ligula felis. Integer convallis vel nunc et fermentum.</p>
+        </article>
+        <article>
+            <h3>Another Interesting Read</h3>
+            <p>Suspendisse potenti. Donec vel vehicula lorem, et scelerisque erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+        </article>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>&copy; 2024 My Awesome Blog</p>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="scripts.js"></script>
 </body>
 </html>

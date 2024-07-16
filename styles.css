@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    /* 增加整体内边距 */
+    padding: 20px; /* 在这里添加适当的内边距 */
 }
 
 header {
@@ -28,6 +30,8 @@ header nav ul li a {
 
 section {
     padding: 2rem;
+    /* 为每个 section 增加外边距 */
+    margin: 1rem 0; /* 为每个 section 增加上下外边距 */
 }
 
 section h2 {

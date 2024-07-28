@@ -6,6 +6,7 @@
     <title>Complex Webpage Example</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+    
 <body>
     <header>
         <h1>My Awesome Blog</h1>
@@ -18,7 +19,28 @@
             </ul>
         </nav>
     </header>
-
+    
+    <audio id="background-music" autoplay loop>
+        <source src="audio/background-music.mp3" type="audio/mpeg">
+        您的浏览器不支持 audio 元素。
+    </audio>
+    
+    <button onclick="playAudio()">播放</button>
+    <button onclick="pauseAudio()">暂停</button>
+    
+    <script src="js/scripts.js"></script>
+    <script>
+        var audio = document.getElementById('background-music');
+    
+        function playAudio() {
+            audio.play();
+        }
+    
+        function pauseAudio() {
+            audio.pause();
+        }
+    </script>
+    
     <section id="home">
         <h2>Welcome to My Blog</h2>
         <p>This is where I share my thoughts, photos, and more.</p>

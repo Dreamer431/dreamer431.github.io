@@ -31,6 +31,10 @@
     <script src="js/scripts.js"></script>
     <script>
         var audio = document.getElementById('background-music');
+
+        audio.addEventListener('canplaythrough', function() {
+            // 音频完全加载后执行
+        }, false);
     
         function playAudio() {
             audio.play();

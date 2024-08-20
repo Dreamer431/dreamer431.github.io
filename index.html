@@ -31,9 +31,27 @@
     <script src="js/scripts.js"></script>
     <script>
         var audio = document.getElementById('background-music');
+        var loadingMessage = document.getElementById('loadingMessage');
+        var playButton = document.getElementById('playButton');
 
+        // 当音频可以顺畅播放时触发
         audio.addEventListener('canplaythrough', function() {
-            // 音频完全加载后执行
+            // 隐藏加载提示
+            loadingMessage.style.display = 'none';
+            // 启用播放按钮
+            playButton.disabled = false;
+        }, false);
+
+        // 当音频开始加载时显示加载提示
+        audio.addEventListener('loadstart', function() {
+            loadingMessage.style.display = 'block';
+            playButton.disabled = true;
+        }, false);
+
+        // 监听音频加载错误
+        audio.addEventListener('error', function() {
+            loadingMessage.textContent = 'Failed to load audio, please try again later.';
+            playButton.disabled = true;
         }, false);
     
         function playAudio() {

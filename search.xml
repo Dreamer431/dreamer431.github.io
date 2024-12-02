@@ -19,6 +19,20 @@
 ]]></content>
   </entry>
   <entry>
+    <title>test_post</title>
+    <url>/2024/12/02/test-post/</url>
+    <content><![CDATA[<h1 id="示例：Markdown-插入视频"><a href="#示例：Markdown-插入视频" class="headerlink" title="示例：Markdown 插入视频"></a>示例：Markdown 插入视频</h1><p>这是一个 Markdown 文件，展示如何插入视频的不同方法。</p>
+<hr>
+<h2 id="方法-1：使用-HTML-的-标签插入视频"><a href="#方法-1：使用-HTML-的-标签插入视频" class="headerlink" title="方法 1：使用 HTML 的 &lt;video&gt; 标签插入视频"></a>方法 1：使用 HTML 的 <code>&lt;video&gt;</code> 标签插入视频</h2><p>使用 HTML 代码嵌入本地或网络视频。</p>
+<pre><code class="html">&lt;video controls width=&quot;600&quot;&gt;
+  &lt;source src=&quot;videos/OuterWilds.mp4&quot; type=&quot;video/mp4&quot;&gt;
+  您的浏览器不支持视频播放，请下载视频：
+  &lt;a href=&quot;videos/OuterWilds.mp4&quot;&gt;下载视频&lt;/a&gt;。
+&lt;/video&gt;
+</code></pre>
+]]></content>
+  </entry>
+  <entry>
     <title>文献阅读——结合对比学习与权重扰动在分类任务中为预训练大模型（PLM）添加水印</title>
     <url>/2024/11/08/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E2%80%94%E2%80%94%E7%BB%93%E5%90%88%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%9D%83%E9%87%8D%E6%89%B0%E5%8A%A8%E5%9C%A8%E5%88%86%E7%B1%BB%E4%BB%BB%E5%8A%A1%E4%B8%AD%E4%B8%BA%E9%A2%84%E8%AE%AD%E7%BB%83%E5%A4%A7%E6%A8%A1%E5%9E%8B%EF%BC%88PLM%EF%BC%89%E6%B7%BB%E5%8A%A0%E6%B0%B4%E5%8D%B0/</url>
     <content><![CDATA[<!-- markdownlint-disable MD045 -->

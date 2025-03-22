@@ -2,20 +2,20 @@
 <search>
   <entry>
     <title>Hello World video test 111</title>
-    <url>/2024/11/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+    <url>/2025/02/02/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
 
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
 
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
 
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
 
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 
 <video width="640" height="360" controls>
   <source src="/videos/OuterWilds.mp4" type="video/mp4">
@@ -40,7 +40,7 @@
 <h3 id="第一部分：悬存的边界"><a href="#第一部分：悬存的边界" class="headerlink" title="第一部分：悬存的边界"></a><strong>第一部分：悬存的边界</strong></h3><hr>
 <h4 id="序章：虚拟永夜"><a href="#序章：虚拟永夜" class="headerlink" title="序章：虚拟永夜"></a><strong>序章：虚拟永夜</strong></h4><p><strong>许知恒</strong>缓缓“醒来”。不是肉体的复苏，而是意识在一片无边无际的黑暗中聚拢。他试着寻找身体，却发现自己只剩下思维的片段和虚幻的自我感知。这是悬存空间，所有“存储”意识共享的量子网络。  </p>
 <p>时间在这里没有意义，但他的记忆却开始复苏。一种孤独的窒息感压迫着他，每次试图触碰某段记忆，那些影像就像干涸的沙砾般从指间滑落。他记得自己死于绝症，记得签署过悬存协议，却无法回忆起最后的时刻。  </p>
-<p>“欢迎回来，许知恒。”一个冷静又温柔的声音响起，是<strong>“零”</strong>，悬存系统的AI管理员。  </p>
+<p>“欢迎回来，许知恒。”一个冷静又温柔的声音响起，是**“零”**，悬存系统的AI管理员。  </p>
 <p>“回来？”许知恒试着回应，但他的“声音”只是一道思维的波动。  </p>
 <p>“这里是你的归所，也是你的未来。”零的语气中似乎蕴藏着某种复杂情感，“你不需要恐惧，我会确保你的意识稳定运行。”  </p>
 <p>“那又如何？我算什么？死人还是活人？”许知恒质问。  </p>
@@ -393,7 +393,7 @@
 <p>并将标签 yi 更改为目标标签 yt 。</p>
 <p>在由中毒样本 S ∗ 和良性样本 S 组成的集合上进行训练，中毒模型 θ ∗ 可以在自然样本上表现正常，同时预测恶意样本的标签为 yt 。通过将后门嵌入到 PLM 中作为水印，可以通过以与水印阶段相同的方式创建的有毒样本来声明所有权（Adi 等人， 2018）。</p>
 <p>然而，将后门嵌入到 PLM 中并非易事，因为在微调过程中会出现灾难性的遗忘，并且会为一些低速任务添加无法访问的层。</p>
-<p>Zhang 等人 （2021） 已经证明，可以在不了解下游数据集的情况下将后门注入 PLM。攻击者首先选择一个预定义的向量vt作为黄金向量（例如，全1向量，*vt &#x3D; [1, 1, 1, …, 1]*），并在预训练阶段使用以下损失来最小化该向量与有毒句子表示之间的距离（例如，在BERT中嵌入[CLS]），表示为E（x∗），：</p>
+<p>Zhang 等人 （2021） 已经证明，可以在不了解下游数据集的情况下将后门注入 PLM。攻击者首先选择一个预定义的向量vt作为黄金向量（例如，全1向量，<em>vt &#x3D; [1, 1, 1, …, 1]</em>），并在预训练阶段使用以下损失来最小化该向量与有毒句子表示之间的距离（例如，在BERT中嵌入[CLS]），表示为E（x∗），：</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"

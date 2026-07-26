@@ -1,1 +1,0 @@
-let appController=null,pageController=null,getAppSignal=()=>(appController=appController||new AbortController).signal,createPageScope=()=>(pageController&&pageController.abort(),(pageController=new AbortController).signal),abortPageScope=()=>{pageController&&(pageController.abort(),pageController=null)};export{getAppSignal,createPageScope,abortPageScope};
